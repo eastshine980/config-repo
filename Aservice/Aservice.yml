@@ -1,1 +1,7 @@
-asdf
+example.property: "THE DEFAULT"
+spring.database.driver-class-name: "com.mysql.cj.jdbc.Driver"
+spring.datasource.jdbc-url:  "jdbc:mysql://localhost:3306/testdata?serverTimezone=UTC"
+spring.datasource.username: "root"
+spring.datasource.password: "1111"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
