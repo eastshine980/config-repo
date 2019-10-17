@@ -5,5 +5,5 @@ spring.datasource.hikari.password: "1111"
 spring.datasource.hikari.driver-class-name: "com.mysql.cj.jdbc.Driver"
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
-server.port : "8081"
+server.port : "8080"
 # profile-sql: true 쿼리가 실행된 시간을 찍어줌
